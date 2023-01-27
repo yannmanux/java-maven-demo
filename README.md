@@ -29,4 +29,5 @@ mvn clean install package -DskipTests
 - Le premier avec jar ***jar.Dockerfile***
 - le second doit builder le jar lors de la construision de l'application ***build.Dockerfile***
 - le 3 ieme doit se base sur le multi stage building ***stage.Dockerfile***
+- Pousser les images crees sur docker hub. 
 
