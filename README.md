@@ -23,4 +23,10 @@ mvn clean install package -DskipTests
 - Le Jar artifiat se trouve dans le dossier 
 ***target/***
 
+## Livrable Pour cette partie 
+
+- Creer 3 dockerfiles : 
+- Le premier avec jar ***jar.Dockerfile***
+- le second doit builder le jar lors de la construision de l'application ***build.Dockerfile***
+- le 3 ieme doit se base sur le multi stage building ***stage.Dockerfile***
 
