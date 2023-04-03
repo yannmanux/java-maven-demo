@@ -14,7 +14,7 @@ pipeline {
 
         stage('build artifact') {
             steps {
-                sh 'mvn clean install'
+                sh 'mvnw clean install'
             }
         }
     
