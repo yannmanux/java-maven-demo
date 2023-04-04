@@ -6,7 +6,7 @@ pipeline {
 
         stage('build') {
             steps {
-                echo 'build the artifact'
+                sh 'mvn clean install'
             }
         }
     
