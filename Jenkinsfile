@@ -6,7 +6,7 @@ pipeline {
 
         stage('build artifact') {
             steps {
-                sh 'mvnw clean package'
+                sh 'mvnw.cmd clean package'
             }
         }
     
